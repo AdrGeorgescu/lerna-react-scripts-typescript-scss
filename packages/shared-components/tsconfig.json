@@ -1,0 +1,14 @@
+{
+    "extends": "../../tsconfig.json",
+    "compileOnSave": true,
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "isolatedModules": true,
+        "baseUrl": "./",
+        "typeRoots": ["node_modules/@types", "./src/typings"],
+        "composite": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
